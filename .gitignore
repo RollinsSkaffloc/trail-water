@@ -1,0 +1,34 @@
+# Dependencies and build output
+node_modules
+dist
+dev-dist
+*.tsbuildinfo
+
+# Environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Supabase CLI local state (only appears if you start using the CLI)
+supabase/.temp
+supabase/.branches
+
+# Android / Capacitor (phase 3)
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+android/captures
+*.keystore
+*.jks
