@@ -4,6 +4,16 @@ Offline-capable hiking map with crowdsourced water reports. Phase 1 web MVP (PWA
 
 Requires Node 20.19+ (or 22.12+).
 
+## Steps for Local App Development
+1. Startup trail water app
+```
+docker compose up -d
+```
+
+2. 
+## TODO: add step for starting up supabase db local instance
+
+
 ## Run it
 
 1. Create a free project at supabase.com. In the SQL Editor, run `supabase/schema.sql`.
